@@ -1,0 +1,30 @@
+:root{
+    --ae-first: #04befe ;
+    --ae-second: #C7F6FE;
+    --ae-third:#000;
+}
+.ae-btn{
+    width: max-content;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 15px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    max-width: max-content;
+}
+.ae-btn:hover{
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+.ae-btn:focus{
+    outline: none;
+}
+.ae-first-btn{
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
